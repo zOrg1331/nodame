@@ -1,0 +1,365 @@
+
+* Season 1
+** pause
+
+ #+BEGIN_SRC sh
+ ./copy_pause.sh 1 1 00:02:13 00:00:03
+ #+END_SRC
+
+** Lesson 1
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:02:16 00:00:02
+ 00:04:44 00:00:29
+ 00:07:44 00:00:53
+ 00:12:45 00:00:53
+ 00:14:17 00:01:15
+ 00:16:03 00:00:45
+ 00:17:32 00:02:43
+ " | ./copy_episode.sh 1 1
+ #+END_SRC
+
+** Lesson 2
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:01:20 00:00:02
+ 00:01:51 00:00:17
+ 00:05:04 00:00:26
+ 00:05:31 00:00:24
+ 00:07:40 00:00:48
+ 00:14:06 00:00:54
+ 00:15:08 00:00:25
+ 00:19:02 00:01:54
+ " | ./copy_episode.sh 1 2
+ #+END_SRC
+
+** Lesson 3
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:01:20 00:00:03
+ 00:03:02 00:00:13
+ 00:13:53 00:01:00
+ 00:18:27 00:01:02
+ " | ./copy_episode.sh 1 3
+ #+END_SRC
+
+** Lesson 4
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:01:33 00:00:03
+ 00:02:56 00:00:21
+ " | ./copy_episode.sh 1 4
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 5
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:03:22 00:00:02
+ 00:09:33 00:01:11
+ 00:12:32 00:03:00
+ 00:16:45 00:02:36
+ " | ./copy_episode.sh 1 5
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 6
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:02:04 00:00:01
+ 00:03:37 00:01:02
+ 00:13:46 00:00:47
+ 00:19:07 00:00:20
+ " | ./copy_episode.sh 1 6
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 7
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:01:20 00:00:02
+ 00:01:22 00:00:53
+ 00:11:19 00:01:00
+ 00:13:42 00:01:00
+ 00:17:13 00:02:16
+ " | ./copy_episode.sh 1 7
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 8
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:01:37 00:00:02
+ 00:09:31 00:00:28
+ 00:11:20 00:00:24
+ 00:12:11 00:00:42
+ 00:16:00 00:00:48
+ " | ./copy_episode.sh 1 8
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 9
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:01:58 00:00:02
+ 00:08:40 00:01:11
+ 00:13:08 00:02:22
+ 00:16:38 00:00:36
+ 00:19:42 00:00:53
+ " | ./copy_episode.sh 1 9
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 10
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:01:28 00:00:01
+ 00:03:07 00:00:24
+ 00:04:22 00:00:21
+ 00:06:10 00:00:55
+ 00:14:26 00:04:29
+ " | ./copy_episode.sh 1 10
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 11
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:01:20 00:00:02
+ 00:01:43 00:08:49
+ 00:12:13 00:00:34
+ " | ./copy_episode.sh 1 11
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 12
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:01:20 00:00:02
+ 00:02:35 00:03:00
+ 00:06:46 00:01:38
+ 00:09:57 00:00:44
+ " | ./copy_episode.sh 1 12
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 13
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:01:23 00:00:01
+ 00:01:40 00:00:34
+ 00:12:15 00:01:28
+ 00:14:06 00:00:40
+ 00:16:25 00:00:32
+ " | ./copy_episode.sh 1 13
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 14
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:01:33 00:00:02
+ 00:20:30 00:00:34
+ " | ./copy_episode.sh 1 14
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 15
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:01:20 00:00:02
+ 00:01:22 00:05:00
+ 00:11:48 00:00:43
+ " | ./copy_episode.sh 1 15
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 16
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:02:01 00:00:02
+ 00:03:02 00:01:39
+ 00:05:53 00:00:26
+ 00:08:22 00:00:54
+ 00:09:38 00:00:37
+ " | ./copy_episode.sh 1 16
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 17
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:01:46 00:00:02
+ 00:05:58 00:00:49
+ 00:08:59 00:00:42
+ 00:12:00 00:00:58
+ 00:17:24 00:00:33
+ " | ./copy_episode.sh 1 17
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 18
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:01:20 00:00:02
+ 00:01:22 00:02:06
+ 00:08:50 00:00:51
+ 00:12:36 00:02:52
+ 00:15:55 00:02:55
+ " | ./copy_episode.sh 1 18
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 19
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:01:20 00:00:02
+ 00:01:22 00:02:01
+ 00:14:58 00:00:56
+ 00:19:14 00:01:03
+ " | ./copy_episode.sh 1 19
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 20
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:01:20 00:00:02
+ 00:03:48 00:00:56
+ 00:06:56 00:03:47
+ 00:11:06 00:01:20
+ 00:13:50 00:00:29
+ 00:14:45 00:02:22
+ 00:19:33 00:01:13
+ " | ./copy_episode.sh 1 20
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 21
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:01:20 00:00:02
+ 00:01:42 00:02:17
+ 00:04:01 00:00:38
+ 00:07:44 00:00:32
+ 00:08:44 00:00:19
+ 00:11:43 00:00:19
+ 00:12:47 00:01:18
+ 00:14:51 00:05:33
+ " | ./copy_episode.sh 1 21
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 22
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:01:22 00:00:02
+ 00:01:24 00:02:10
+ 00:14:12 00:02:04
+ 00:16:30 00:01:44
+ 00:18:30 00:01:18
+ " | ./copy_episode.sh 1 22
+ #+END_SRC
+
+ #+RESULTS:
+
+** Lesson 23
+
+ #+BEGIN_SRC sh
+ echo "
+ 00:03:31 00:00:02
+ 00:00:00 00:03:30
+ 00:09:36 00:03:37
+ 00:17:47 00:00:31
+ 00:22:07.5 00:00:02.5
+ " | ./copy_episode.sh 1 23
+ #+END_SRC
+
+ #+RESULTS:
+
+** Overall
+
+ #+BEGIN_SRC sh
+ ./merge_overall.sh 1 23
+ #+END_SRC
+
+ #+RESULTS:
+
+* Season 2
+** pause
+
+#+BEGIN_SRC sh
+./copy_pause.sh 2 1 00:08:02 00:00:02
+#+END_SRC
+
+** Lesson 1
+
+#+BEGIN_SRC sh
+echo "
+00:02:44 00:00:02
+00:04:17 00:01:38
+00:08:04 00:00:26
+" | ./copy_episode.sh 2 1
+#+END_SRC
+
+** Lesson 2
+
+#+BEGIN_SRC sh
+echo "
+00:01:20 00:00:02
+00:06:22 00:00:45
+00:08:07 00:00:46
+00:09:36 00:02:25
+00:15:02 00:01:06
+" | ./copy_episode.sh 2 2
+#+END_SRC
+
+** Lesson 3
+
+#+BEGIN_SRC sh
+echo "
+00:01:20 00:00:02
+00:06:22 00:00:45
+" | ./copy_episode.sh 2 3
+#+END_SRC
+
